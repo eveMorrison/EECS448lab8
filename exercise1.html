@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang = "en-us">
+
+    <head>
+        <title>Exercise 1</title>
+    </head>
+    <body>
+        <h1>Password Validator</h1>
+        <p>Password: <input type="password" id="pw1"></p>
+        <p>Re-Enter Password: <input type="password" id="pw2"></p>
+        <button onclick="myFunction()">Validate Password</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var pw = document.getElementById("pw1").value;
+            var valid = document.getElementById("pw2").value;
+            if(pw == valid && pw.length>7)
+            {
+                alert("Passwords match and are valid");
+            } 
+            else if(pw.length <= 7 )
+            {
+                alert("Passwords are not at least 8 characters long");
+            } 
+            else
+            {
+                alert("Passwords do not match");
+            }
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+    </body>
