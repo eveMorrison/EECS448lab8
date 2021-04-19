@@ -1,4 +1,70 @@
-h1
-{
- background-color: blue;
+h1{
+    text-align: center;
+    color: navy;
+    font: verdana
+    
+}
+
+h2{
+    text-align: center;
+    color: navy;
+    font: verdana;
+    background-color: palevioletred;
+    font-size: 24pt;
+}
+
+h3{
+    text-align: center;
+    color: navy;
+    background-color: palevioletred;
+    font: verdana;
+    font-size: 20pt;
+}
+
+h4{
+    text-align: center;
+    color: navy;
+    background-color: palegoldenrod;
+    font: verdana;
+}
+
+p{
+    word-wrap: normal;
+    text-align: center;
+    color: navy;
+    font: verdana;
+    width: 100%;
+    border: 1pt solid navy;
+    float: center;
+}
+
+img{
+    width: 141pt;
+    height: 213pt;
+    float: center;
+    margin: 20pt;
+}
+img:hover{
+    background: powderblue;
+    display: inline-block;
+    margin: 55px 75px 30px;
+    padding: 15px 15px 30px;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    position: relative;
+}
+
+p.mountain{
+    background-image: url('download.jpeg'); 
+    background-size: 100%;
+    width: 100%;
+    height: 433pt;
+    float: center;
+    text-align: center;
+    font-size: 50pt;
 }
